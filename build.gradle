@@ -13,14 +13,14 @@ subprojects {
   }
 
   dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
   }
 }
 
 
 project(':jcasl2') {
   jar {
-    archiveName = "jcasl2.jar"
+    archiveFileName = "jcasl2.jar"
     manifest {
       attributes "Main-Class": "jp.kusumotolab.jcasl2.JCasl2"
     }
@@ -31,7 +31,7 @@ project(':jcasl2') {
 
 project(':jcomet2') {
   jar {
-    archiveName = "jcomet2.jar"
+    archiveFileName = "jcomet2.jar"
     manifest {
       attributes "Main-Class": "jp.kusumotolab.jcomet2.JComet2"
     }
