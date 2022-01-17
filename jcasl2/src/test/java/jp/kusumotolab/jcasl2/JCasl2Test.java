@@ -86,7 +86,7 @@ public class JCasl2Test {
 
   @Test
   public void test013() throws Exception {
-    test("013");
+    test("100");
   }
 
   @Test
